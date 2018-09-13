@@ -1,0 +1,40 @@
+.bg-block__{
+	&card{		
+		position: absolute;
+		&.is--bg-about-550x760{		
+			z-index: 1;
+			top: 0;
+			right: 0;
+			max-width: 550px;
+			max-height: 760px;
+			width: 29vw;
+			height: 40vw;
+			display: none;
+			@media @media-point-notsmart {
+				display: block;
+			}	
+		} 
+		&.is--bg-default-1010x890{		
+			z-index: 1;
+			top: 0;
+			right: 0;
+			max-width: 1010px;
+			max-height: 890px;
+			width: 53vw;
+			height: 47vw;
+			display: none;
+			@media @media-point-notsmart {
+				display: block;
+			}	
+		} 
+		svg{display: block;} 
+	}
+	&inner{
+		position: absolute;
+		background-position: top right;
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 100%;
+		height: 100%;
+	}
+}
